@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d7191d5b-c4f9-4411-879a-f9d579256514}</ProjectGuid>
+    <RootNamespace>PhysXTestClient</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Utility;$(ProjectDir)PxCode\include;$(ProjectDir)PxCode\source;$(ProjectDir)PxCode\source\geomutils\include;$(ProjectDir)PxCode\source\geomutils\src;$(ProjectDir)PxCode\source\common\include;$(ProjectDir)PxCode\source\geomutils\src\mesh;$(ProjectDir)PxCode\source\geomutils\src\common;$(ProjectDir)PxCode\source\geomutils\src\convex;$(ProjectDir)PxCode\source\geomutils\src\hf;$(ProjectDir)PxCode\source\geomutils\src\gjk;$(ProjectDir)PxCode\source\geomutils\src\distance;$(ProjectDir)PxCode\source\geomutils\src\sweep;$(ProjectDir)PxCode\source\geomutils\src\pcm;$(ProjectDir)PxCode\source\common\src;$(ProjectDir)PxCode\source\physxcooking\src;$(ProjectDir)PxCode\source\geomutils\src\intersection;$(ProjectDir)PxCode\source\geomutils\src\contact;$(ProjectDir)PxCode\include\geometry</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Utility;$(ProjectDir)PxCode\include;$(ProjectDir)PxCode\source</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="PhysXTestClient.cpp" />
+    <ClCompile Include="PxCode\source\common\src\CmCollection.cpp" />
+    <ClCompile Include="PxCode\source\common\src\CmPtrTable.cpp" />
+    <ClCompile Include="PxCode\source\common\src\CmRadixSort.cpp" />
+    <ClCompile Include="PxCode\source\common\src\CmSerialize.cpp" />
+    <ClCompile Include="PxCode\source\common\src\CmVisualization.cpp" />
+    <ClCompile Include="PxCode\source\extensions\ExtDefaultErrorCallback.cpp" />
+    <ClCompile Include="PxCode\source\foundation\FdAllocator.cpp" />
+    <ClCompile Include="PxCode\source\foundation\FdAssert.cpp" />
+    <ClCompile Include="PxCode\source\foundation\FdFoundation.cpp" />
+    <ClCompile Include="PxCode\source\foundation\FdMathUtils.cpp" />
+    <ClCompile Include="PxCode\source\foundation\FdString.cpp" />
+    <ClCompile Include="PxCode\source\foundation\FdTempAllocator.cpp" />
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsAtomic.cpp" />
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsFPU.cpp" />
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsMutex.cpp" />
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsPrintString.cpp" />
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsSList.cpp" />
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsSocket.cpp" />
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsSync.cpp" />
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsThread.cpp" />
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsTime.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuAdjacencies.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuBarycentricCoordinates.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuEdgeList.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuMeshAnalysis.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuMeshCleaner.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuQuantizer.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuSeparatingAxes.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuVertexReducer.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\contact\GuContactCapsuleMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\contact\GuContactConvexMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\contact\GuContactPolygonPolygon.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\contact\GuContactSphereMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\contact\GuFeatureCode.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuBigConvexData.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuConvexHelper.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuConvexMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuConvexSupportTable.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuConvexUtilsInternal.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuHillClimbing.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuShapeConvex.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingBigConvexDataBuilder.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingBVH.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingConvexHullBuilder.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingConvexHullLib.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingConvexHullUtils.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingConvexMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingConvexMeshBuilder.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingConvexPolygonsBuilder.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingHF.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingQuickHullConvexHullLib.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingTetrahedronMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingTriangleMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingVolumeIntegration.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuRTreeCooking.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistancePointBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistancePointTetrahedron.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistancePointTriangle.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistanceSegmentBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistanceSegmentSegment.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistanceSegmentTriangle.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistanceTriangleTriangle.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\gjk\GuEPA.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\gjk\GuGJKSimplex.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\gjk\GuGJKTest.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuAABBPruner.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuAABBTree.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuAABBTreeUpdateMap.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuActorShapeMap.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuBounds.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuBucketPruner.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuBVH.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuCapsule.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuCCTSweepTests.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuCookingSDF.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuExtendedBucketPruner.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuFactory.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuGeometryQuery.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuGjkQuery.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuIncrementalAABBPruner.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuIncrementalAABBPrunerCore.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuIncrementalAABBTree.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuInternal.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuMaverickNode.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuMeshFactory.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuMetaData.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuMTD.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuOverlapTests.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuPruningPool.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuQuerySystem.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuRaycastTests.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuSAH.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuSDF.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuSecondaryPruner.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuSqInternal.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuSweepMTD.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuSweepSharedTests.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuSweepTests.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\GuWindingNumber.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\hf\GuHeightField.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\hf\GuHeightFieldUtil.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\hf\GuOverlapTestsHF.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\hf\GuSweepsHF.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionBoxBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionCapsuleTriangle.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionEdgeEdge.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionRayBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionRayCapsule.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionRaySphere.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionSphereBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionTetrahedronBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionTriangleBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionTriangleTriangle.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV32.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV32Build.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4Build.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_AABBSweep.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_BoxOverlap.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_CapsuleSweep.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_CapsuleSweepAA.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_MeshMeshOverlap.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_OBBSweep.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_Raycast.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_SphereOverlap.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_SphereSweep.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuMeshQuery.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuMidphaseBV4.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuMidphaseRTree.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuOverlapTestsMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuRTree.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuRTreeQueries.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuSweepsMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuTetrahedronMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuTetrahedronMeshUtils.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuTriangleMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuTriangleMeshBV4.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuTriangleMeshRTree.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactBoxBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactBoxConvex.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactCapsuleBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactCapsuleCapsule.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactCapsuleConvex.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactCapsuleHeightField.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactCapsuleMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactConvexCommon.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactConvexConvex.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactConvexHeightField.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactConvexMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactCustomGeometry.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactGenBoxConvex.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactGenSphereCapsule.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactGenUtil.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactPlaneBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactPlaneCapsule.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactPlaneConvex.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSphereBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSphereCapsule.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSphereConvex.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSphereHeightField.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSphereMesh.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSpherePlane.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSphereSphere.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMShapeConvex.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMTriangleContactGen.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPersistentContactManifold.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepBoxBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepBoxSphere.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepBoxTriangle_FeatureBased.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepBoxTriangle_SAT.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepCapsuleBox.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepCapsuleCapsule.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepCapsuleTriangle.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepSphereCapsule.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepSphereSphere.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepSphereTriangle.cpp" />
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepTriangleUtils.cpp" />
+    <ClCompile Include="PxCode\source\physxcooking\src\Cooking.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PxCode\include\extensions\PxDefaultAllocator.h" />
+    <ClInclude Include="PxCode\include\PxConstraintDesc.h" />
+    <ClInclude Include="Utility\OBJ_Loader.h" />
+    <ClInclude Include="Utility\PxTriangleMeshCreator.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

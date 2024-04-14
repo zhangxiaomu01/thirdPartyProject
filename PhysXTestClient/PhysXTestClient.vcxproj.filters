@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{f93abe88-dbf0-485c-a0a6-76babc204433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PxCode">
+      <UniqueIdentifier>{98245afb-8104-43fb-88a7-fbfd7076fb48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode">
+      <UniqueIdentifier>{394cb476-386c-43be-90c7-274d1796ece3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\extensions">
+      <UniqueIdentifier>{99cf29d3-48e9-4fff-8877-14460913727a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\foundation">
+      <UniqueIdentifier>{a5929f3e-27f5-48bb-9b6d-645cefaabd18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\foundation\windows">
+      <UniqueIdentifier>{73eedb8f-b36d-4867-9321-84412dcd93d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PxCode\foundation">
+      <UniqueIdentifier>{8ec70565-3e84-4349-8a77-f7044baebe3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PxCode\extensions">
+      <UniqueIdentifier>{efa9c177-da31-4b32-99c7-402dbd39983a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\geoutils">
+      <UniqueIdentifier>{5d87c492-5d5a-4733-b155-b50731b2d6f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\geoutils\cooking">
+      <UniqueIdentifier>{d306ec3e-d61c-4a12-ab34-09ac59163051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\physxcooking">
+      <UniqueIdentifier>{ec5d9b53-8187-440a-9f03-427e346683c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\common">
+      <UniqueIdentifier>{faafafaf-d095-4019-8a62-5e6e6ccbc5ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\geoutils\covex">
+      <UniqueIdentifier>{feb809a1-6a6b-4872-9c83-e32fa86d9451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\geoutils\common">
+      <UniqueIdentifier>{d3d41a6f-29bc-4af6-be4a-01f5ba7f9163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\geoutils\sf">
+      <UniqueIdentifier>{7ddee858-28f2-4aa7-a4ae-3d225c991f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\geoutils\mesh">
+      <UniqueIdentifier>{54a0b74e-caba-40df-9cfc-02e1be7116cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\geoutils\distance">
+      <UniqueIdentifier>{968e7e32-a59d-44da-aa20-3513a485c2ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\geoutils\gjk">
+      <UniqueIdentifier>{da2c29d6-3566-4027-9cb7-698f07027df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\geoutils\sweep">
+      <UniqueIdentifier>{f284e3c3-d0fd-49e5-8dbf-af5746673d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\geoutils\pcm">
+      <UniqueIdentifier>{58c1678d-1924-4631-b80e-e863c97b2ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\geoutils\contact">
+      <UniqueIdentifier>{8f957a5b-3e04-4da2-bb74-cc50f21c6e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PxCode\geoutils\intersection">
+      <UniqueIdentifier>{6a06a7eb-0920-4d91-b356-4ccb7838afab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PhysXTestClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\extensions\ExtDefaultErrorCallback.cpp">
+      <Filter>Source Files\PxCode\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\FdAllocator.cpp">
+      <Filter>Source Files\PxCode\foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\FdAssert.cpp">
+      <Filter>Source Files\PxCode\foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\FdFoundation.cpp">
+      <Filter>Source Files\PxCode\foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\FdMathUtils.cpp">
+      <Filter>Source Files\PxCode\foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\FdString.cpp">
+      <Filter>Source Files\PxCode\foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\FdTempAllocator.cpp">
+      <Filter>Source Files\PxCode\foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsAtomic.cpp">
+      <Filter>Source Files\PxCode\foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsFPU.cpp">
+      <Filter>Source Files\PxCode\foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsMutex.cpp">
+      <Filter>Source Files\PxCode\foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsPrintString.cpp">
+      <Filter>Source Files\PxCode\foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsSList.cpp">
+      <Filter>Source Files\PxCode\foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsSocket.cpp">
+      <Filter>Source Files\PxCode\foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsSync.cpp">
+      <Filter>Source Files\PxCode\foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsThread.cpp">
+      <Filter>Source Files\PxCode\foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\foundation\windows\FdWindowsTime.cpp">
+      <Filter>Source Files\PxCode\foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingBigConvexDataBuilder.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingBVH.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingConvexHullBuilder.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingConvexHullLib.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingConvexHullUtils.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingConvexMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingConvexMeshBuilder.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingConvexPolygonsBuilder.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingHF.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingQuickHullConvexHullLib.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingTetrahedronMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingTriangleMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuCookingVolumeIntegration.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\cooking\GuRTreeCooking.cpp">
+      <Filter>Source Files\PxCode\geoutils\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuFactory.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuMeshFactory.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\physxcooking\src\Cooking.cpp">
+      <Filter>Source Files\PxCode\physxcooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\common\src\CmCollection.cpp">
+      <Filter>Source Files\PxCode\common</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\common\src\CmPtrTable.cpp">
+      <Filter>Source Files\PxCode\common</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\common\src\CmRadixSort.cpp">
+      <Filter>Source Files\PxCode\common</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\common\src\CmSerialize.cpp">
+      <Filter>Source Files\PxCode\common</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\common\src\CmVisualization.cpp">
+      <Filter>Source Files\PxCode\common</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuBigConvexData.cpp">
+      <Filter>Source Files\PxCode\geoutils\covex</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuConvexHelper.cpp">
+      <Filter>Source Files\PxCode\geoutils\covex</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuConvexMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\covex</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuConvexSupportTable.cpp">
+      <Filter>Source Files\PxCode\geoutils\covex</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuConvexUtilsInternal.cpp">
+      <Filter>Source Files\PxCode\geoutils\covex</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuHillClimbing.cpp">
+      <Filter>Source Files\PxCode\geoutils\covex</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\convex\GuShapeConvex.cpp">
+      <Filter>Source Files\PxCode\geoutils\covex</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuSDF.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuAABBPruner.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuAABBTree.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuAABBTreeUpdateMap.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuActorShapeMap.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuBounds.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuBox.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuBucketPruner.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuBVH.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuCapsule.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuCCTSweepTests.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuCookingSDF.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuExtendedBucketPruner.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuGeometryQuery.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuGjkQuery.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuIncrementalAABBPruner.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuIncrementalAABBPrunerCore.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuIncrementalAABBTree.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuInternal.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuMaverickNode.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuMetaData.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuMTD.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuOverlapTests.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuPruningPool.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuQuerySystem.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuRaycastTests.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuSAH.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuSecondaryPruner.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuSqInternal.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuSweepMTD.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuSweepSharedTests.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuSweepTests.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\GuWindingNumber.cpp">
+      <Filter>Source Files\PxCode\geoutils</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuQuantizer.cpp">
+      <Filter>Source Files\PxCode\geoutils\common</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuAdjacencies.cpp">
+      <Filter>Source Files\PxCode\geoutils\common</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuBarycentricCoordinates.cpp">
+      <Filter>Source Files\PxCode\geoutils\common</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuEdgeList.cpp">
+      <Filter>Source Files\PxCode\geoutils\common</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuMeshAnalysis.cpp">
+      <Filter>Source Files\PxCode\geoutils\common</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuMeshCleaner.cpp">
+      <Filter>Source Files\PxCode\geoutils\common</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuSeparatingAxes.cpp">
+      <Filter>Source Files\PxCode\geoutils\common</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\common\GuVertexReducer.cpp">
+      <Filter>Source Files\PxCode\geoutils\common</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\hf\GuHeightField.cpp">
+      <Filter>Source Files\PxCode\geoutils\sf</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\hf\GuHeightFieldUtil.cpp">
+      <Filter>Source Files\PxCode\geoutils\sf</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\hf\GuOverlapTestsHF.cpp">
+      <Filter>Source Files\PxCode\geoutils\sf</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\hf\GuSweepsHF.cpp">
+      <Filter>Source Files\PxCode\geoutils\sf</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_AABBSweep.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_BoxOverlap.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_CapsuleSweep.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_CapsuleSweepAA.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_MeshMeshOverlap.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_OBBSweep.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_Raycast.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_SphereOverlap.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4_SphereSweep.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV4Build.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV32.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuBV32Build.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuMeshQuery.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuMidphaseBV4.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuMidphaseRTree.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuOverlapTestsMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuRTree.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuRTreeQueries.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuSweepsMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuTetrahedronMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuTetrahedronMeshUtils.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuTriangleMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuTriangleMeshBV4.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\mesh\GuTriangleMeshRTree.cpp">
+      <Filter>Source Files\PxCode\geoutils\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistancePointBox.cpp">
+      <Filter>Source Files\PxCode\geoutils\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistancePointTetrahedron.cpp">
+      <Filter>Source Files\PxCode\geoutils\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistancePointTriangle.cpp">
+      <Filter>Source Files\PxCode\geoutils\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistanceSegmentBox.cpp">
+      <Filter>Source Files\PxCode\geoutils\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistanceSegmentSegment.cpp">
+      <Filter>Source Files\PxCode\geoutils\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistanceSegmentTriangle.cpp">
+      <Filter>Source Files\PxCode\geoutils\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\distance\GuDistanceTriangleTriangle.cpp">
+      <Filter>Source Files\PxCode\geoutils\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\gjk\GuEPA.cpp">
+      <Filter>Source Files\PxCode\geoutils\gjk</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\gjk\GuGJKSimplex.cpp">
+      <Filter>Source Files\PxCode\geoutils\gjk</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\gjk\GuGJKTest.cpp">
+      <Filter>Source Files\PxCode\geoutils\gjk</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepBoxBox.cpp">
+      <Filter>Source Files\PxCode\geoutils\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepBoxSphere.cpp">
+      <Filter>Source Files\PxCode\geoutils\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepBoxTriangle_FeatureBased.cpp">
+      <Filter>Source Files\PxCode\geoutils\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepBoxTriangle_SAT.cpp">
+      <Filter>Source Files\PxCode\geoutils\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepCapsuleBox.cpp">
+      <Filter>Source Files\PxCode\geoutils\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepCapsuleCapsule.cpp">
+      <Filter>Source Files\PxCode\geoutils\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepCapsuleTriangle.cpp">
+      <Filter>Source Files\PxCode\geoutils\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepSphereCapsule.cpp">
+      <Filter>Source Files\PxCode\geoutils\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepSphereSphere.cpp">
+      <Filter>Source Files\PxCode\geoutils\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepSphereTriangle.cpp">
+      <Filter>Source Files\PxCode\geoutils\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\sweep\GuSweepTriangleUtils.cpp">
+      <Filter>Source Files\PxCode\geoutils\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPersistentContactManifold.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMShapeConvex.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactConvexCommon.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactCapsuleMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\contact\GuContactSphereMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\contact\GuContactCapsuleMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\contact\GuContactConvexMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionBoxBox.cpp">
+      <Filter>Source Files\PxCode\geoutils\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionCapsuleTriangle.cpp">
+      <Filter>Source Files\PxCode\geoutils\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionEdgeEdge.cpp">
+      <Filter>Source Files\PxCode\geoutils\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionRayBox.cpp">
+      <Filter>Source Files\PxCode\geoutils\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionRayCapsule.cpp">
+      <Filter>Source Files\PxCode\geoutils\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionRaySphere.cpp">
+      <Filter>Source Files\PxCode\geoutils\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionSphereBox.cpp">
+      <Filter>Source Files\PxCode\geoutils\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionTetrahedronBox.cpp">
+      <Filter>Source Files\PxCode\geoutils\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionTriangleBox.cpp">
+      <Filter>Source Files\PxCode\geoutils\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\intersection\GuIntersectionTriangleTriangle.cpp">
+      <Filter>Source Files\PxCode\geoutils\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\contact\GuFeatureCode.cpp">
+      <Filter>Source Files\PxCode\geoutils\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\contact\GuContactPolygonPolygon.cpp">
+      <Filter>Source Files\PxCode\geoutils\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactGenSphereCapsule.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactBoxBox.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactBoxConvex.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactCapsuleBox.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactCapsuleCapsule.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactCapsuleConvex.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactCapsuleHeightField.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactConvexConvex.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactConvexHeightField.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactConvexMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactCustomGeometry.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactGenBoxConvex.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactGenUtil.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactPlaneBox.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactPlaneCapsule.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactPlaneConvex.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSphereBox.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSphereCapsule.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSphereConvex.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSphereHeightField.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSphereMesh.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSpherePlane.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMContactSphereSphere.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMTriangleContactGen.cpp">
+      <Filter>Source Files\PxCode\geoutils\pcm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utility\OBJ_Loader.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PxCode\include\extensions\PxDefaultAllocator.h">
+      <Filter>Header Files\PxCode\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\PxTriangleMeshCreator.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PxCode\include\PxConstraintDesc.h">
+      <Filter>Header Files\PxCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
