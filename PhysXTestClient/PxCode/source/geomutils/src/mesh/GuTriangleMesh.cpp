@@ -28,8 +28,8 @@
 
 #include "GuMidphaseInterface.h"
 #include "GuMeshFactory.h"
-#include "GuConvexEdgeFlags.h"
-#include "GuEdgeList.h"
+#include "convex/GuConvexEdgeFlags.h"
+#include "common/GuEdgeList.h"
 #include "geometry/PxGeometryInternal.h"
 
 using namespace physx;

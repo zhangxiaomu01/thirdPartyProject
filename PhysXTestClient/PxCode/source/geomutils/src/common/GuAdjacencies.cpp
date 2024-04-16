@@ -29,8 +29,8 @@
 #include "foundation/PxMemory.h"
 #include "GuEdgeList.h"
 #include "GuAdjacencies.h"
-#include "CmSerialize.h"
-#include "CmRadixSort.h"
+#include "common/src/CmSerialize.h"
+#include "common/src/CmRadixSort.h"
 
 // PT: code archeology: this initially came from ICE (IceAdjacencies.h/cpp). Consider putting it back the way it was initially.
 

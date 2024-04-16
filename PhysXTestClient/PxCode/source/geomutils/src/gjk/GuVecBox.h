@@ -37,7 +37,7 @@
 #include "geometry/PxBoxGeometry.h"
 #include "foundation/PxVecTransform.h"
 #include "GuVecConvex.h"
-#include "GuConvexSupportTable.h"
+#include "convex/GuConvexSupportTable.h"
 
 namespace physx
 {

@@ -30,7 +30,7 @@
 #define GU_GJK_PENETRATION_H
 
 
-#include "GuConvexSupportTable.h"
+#include "convex/GuConvexSupportTable.h"
 #include "GuGJKSimplex.h"
 #include "GuVecConvexHullNoScale.h"
 #include "GuGJKUtil.h"

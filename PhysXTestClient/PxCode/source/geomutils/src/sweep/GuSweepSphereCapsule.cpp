@@ -29,9 +29,9 @@
 #include "GuSweepSphereCapsule.h"
 #include "GuSphere.h"
 #include "GuCapsule.h"
-#include "GuDistancePointSegment.h"
+#include "distance/GuDistancePointSegment.h"
 #include "GuSweepSphereSphere.h"
-#include "GuIntersectionRayCapsule.h"
+#include "intersection/GuIntersectionRayCapsule.h"
 
 using namespace physx;
 using namespace Gu;

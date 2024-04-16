@@ -31,15 +31,15 @@
 
 #include "common/PxPhysXCommonConfig.h"
 #include "geometry/PxMeshScale.h"
-#include "GuConvexMesh.h"
+#include "convex/GuConvexMesh.h"
 #include "GuVecConvex.h"
-#include "GuConvexMeshData.h"
-#include "GuBigConvexData.h"
-#include "GuConvexSupportTable.h"
-#include "GuCubeIndex.h"
+#include "convex/GuConvexMeshData.h"
+#include "convex/GuBigConvexData.h"
+#include "convex/GuConvexSupportTable.h"
+#include "convex/GuCubeIndex.h"
 #include "foundation/PxFPU.h"
 #include "foundation/PxVecQuat.h"
-#include "GuShapeConvex.h"
+#include "convex/GuShapeConvex.h"
 
 namespace physx
 {

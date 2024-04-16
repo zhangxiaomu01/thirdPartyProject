@@ -29,10 +29,10 @@
 #include "foundation/PxBounds3.h"
 #include "geometry/PxConvexMeshGeometry.h"
 #include "GuConvexUtilsInternal.h"
-#include "GuBoxConversion.h"
+#include "common/GuBoxConversion.h"
 #include "GuConvexMesh.h"
-#include "CmScaling.h"
-#include "CmMatrix34.h"
+#include "common/src/CmScaling.h"
+#include "common/src/CmMatrix34.h"
 
 using namespace physx;
 using namespace Gu;

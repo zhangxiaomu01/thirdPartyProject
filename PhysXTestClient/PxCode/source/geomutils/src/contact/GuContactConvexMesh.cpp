@@ -28,24 +28,24 @@
             
 #include "geomutils/PxContactBuffer.h"
 
-#include "GuConvexUtilsInternal.h"
+#include "convex/GuConvexUtilsInternal.h"
 #include "GuInternal.h"
 #include "GuContactPolygonPolygon.h"
-#include "GuConvexEdgeFlags.h"
-#include "GuSeparatingAxes.h"
+#include "convex/GuConvexEdgeFlags.h"
+#include "common/GuSeparatingAxes.h"
 #include "GuContactMethodImpl.h"
-#include "GuMidphaseInterface.h"
-#include "GuConvexHelper.h"
-#include "GuTriangleCache.h"
-#include "GuHeightFieldUtil.h"
-#include "GuEntityReport.h"
+#include "mesh/GuMidphaseInterface.h"
+#include "convex/GuConvexHelper.h"
+#include "mesh/GuTriangleCache.h"
+#include "hf/GuHeightFieldUtil.h"
+#include "hf/GuEntityReport.h"
 #include "GuIntersectionTriangleBox.h"
 #include "GuBox.h"
 
-#include "CmUtils.h"
+#include "common/src/CmUtils.h"
 #include "foundation/PxAlloca.h"
 #include "foundation/PxFPU.h"
-#include "CmMatrix34.h"
+#include "common/src/CmMatrix34.h"
 
 using namespace physx;
 using namespace Gu;

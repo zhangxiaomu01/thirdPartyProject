@@ -33,7 +33,7 @@ using namespace Gu;
 #include "PxQueryReport.h"
 #include "GuInternal.h"
 
-#include "GuIntersectionRayTriangle.h"
+#include "intersection/GuIntersectionRayTriangle.h"
 
 #include "foundation/PxVecMath.h"
 using namespace physx::aos;

@@ -30,10 +30,10 @@
 #define GU_SWEEP_CONVEX_TRI
 
 #include "geometry/PxConvexMeshGeometry.h"
-#include "GuVecTriangle.h"
-#include "GuVecConvexHull.h"
-#include "GuConvexMesh.h"
-#include "GuGJKRaycast.h"
+#include "gjk/GuVecTriangle.h"
+#include "gjk/GuVecConvexHull.h"
+#include "convex/GuConvexMesh.h"
+#include "gjk/GuGJKRaycast.h"
 
 // return true if hit, false if no hit
 static PX_FORCE_INLINE bool sweepConvexVsTriangle(

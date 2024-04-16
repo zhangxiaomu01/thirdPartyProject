@@ -33,7 +33,7 @@
 @{
 */
 
-#include "GuTriangle.h"
+#include "mesh/GuTriangle.h"
 #include "foundation/PxArray.h"
 #include "foundation/PxHashMap.h"
 #include "foundation/PxVec3.h"

@@ -29,7 +29,7 @@
 #include "foundation/PxMemory.h"
 #include "GuBV4.h"
 #include "GuBV4_Common.h"
-#include "CmSerialize.h"
+#include "common/src/CmSerialize.h"
 #include "foundation/PxVecMath.h"
 #include "common/PxSerialFramework.h"
 

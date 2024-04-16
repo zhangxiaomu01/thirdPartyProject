@@ -29,11 +29,11 @@
 #include "foundation/PxBounds3.h"
 #include "GuSweepTriangleUtils.h"
 #include "GuDistancePointTriangle.h"
-#include "GuVecTriangle.h"
-#include "GuVecBox.h"
+#include "gjk/GuVecTriangle.h"
+#include "gjk/GuVecBox.h"
 #include "GuSweepBoxTriangle_FeatureBased.h"
 #include "GuInternal.h"
-#include "GuGJK.h"
+#include "gjk/GuGJK.h"
 
 using namespace physx;
 using namespace Gu;

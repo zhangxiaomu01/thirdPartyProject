@@ -32,7 +32,7 @@
 
 #include "GuGJKType.h"
 #include "GuGJKUtil.h"
-#include "GuConvexSupportTable.h"
+#include "convex/GuConvexSupportTable.h"
 #include "GuGJKSimplex.h"
 #include "foundation/PxFPU.h"
 

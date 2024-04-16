@@ -29,7 +29,7 @@
 #ifndef GU_SWEEP_SHARED_TESTS_H
 #define GU_SWEEP_SHARED_TESTS_H
 
-#include "GuBoxConversion.h"
+#include "common/GuBoxConversion.h"
 
 namespace physx
 {

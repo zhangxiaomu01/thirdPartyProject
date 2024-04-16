@@ -28,12 +28,12 @@
 
 #include "geometry/PxTriangleMesh.h"
 #include "geomutils/PxContactBuffer.h"
-#include "GuVecBox.h"
-#include "GuVecConvexHull.h"
-#include "GuVecConvexHullNoScale.h"
-#include "GuVecTriangle.h"
-#include "GuContactMethodImpl.h"
-#include "GuHeightField.h"
+#include "gjk/GuVecBox.h"
+#include "gjk/GuVecConvexHull.h"
+#include "gjk/GuVecConvexHullNoScale.h"
+#include "gjk/GuVecTriangle.h"
+#include "contact/GuContactMethodImpl.h"
+#include "hf/GuHeightField.h"
 #include "GuPCMContactConvexCommon.h"
 #include "GuPCMContactMeshCallback.h"
 

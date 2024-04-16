@@ -27,8 +27,8 @@
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
 #include "geomutils/PxContactBuffer.h"
-#include "GuVecConvexHull.h"
-#include "GuContactMethodImpl.h"
+#include "gjk/GuVecConvexHull.h"
+#include "contact/GuContactMethodImpl.h"
 #include "GuPersistentContactManifold.h"
 
 using namespace physx;

@@ -27,12 +27,12 @@
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
 #include "geomutils/PxContactBuffer.h"
-#include "GuGJKPenetration.h"
-#include "GuEPA.h"
-#include "GuVecBox.h"
-#include "GuConvexHelper.h"
+#include "gjk/GuGJKPenetration.h"
+#include "gjk/GuEPA.h"
+#include "gjk/GuVecBox.h"
+#include "convex/GuConvexHelper.h"
 #include "GuPCMShapeConvex.h"
-#include "GuContactMethodImpl.h"
+#include "contact/GuContactMethodImpl.h"
 #include "GuPCMContactGenUtil.h"
 
 using namespace physx;

@@ -30,7 +30,7 @@
 #define GU_CONVEX_SUPPORT_TABLE_H
 
 #include "common/PxPhysXCommonConfig.h"
-#include "GuVecConvex.h"
+#include "gjk/GuVecConvex.h"
 #include "foundation/PxVecTransform.h"
 
 namespace physx

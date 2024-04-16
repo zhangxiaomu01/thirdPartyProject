@@ -31,9 +31,9 @@
 
 #include "GuSweepCapsuleCapsule.h"
 #include "GuCapsule.h"
-#include "GuDistancePointSegment.h"
+#include "distance/GuDistancePointSegment.h"
 #include "GuDistanceSegmentSegment.h"
-#include "GuIntersectionRayCapsule.h"
+#include "intersection/GuIntersectionRayCapsule.h"
 
 using namespace physx;
 using namespace Gu;

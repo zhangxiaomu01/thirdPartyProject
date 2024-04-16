@@ -30,7 +30,7 @@
 #define GU_SHAPECONVEX_H
 
 #include "GuConvexMeshData.h"
-#include "CmScaling.h"
+#include "common/src/CmScaling.h"
 
 namespace physx
 {

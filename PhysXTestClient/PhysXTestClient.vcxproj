@@ -104,7 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)Utility;$(ProjectDir)PxCode\include;$(ProjectDir)PxCode\source;$(ProjectDir)PxCode\source\geomutils\include;$(ProjectDir)PxCode\source\geomutils\src;$(ProjectDir)PxCode\source\common\include;$(ProjectDir)PxCode\source\geomutils\src\mesh;$(ProjectDir)PxCode\source\geomutils\src\common;$(ProjectDir)PxCode\source\geomutils\src\convex;$(ProjectDir)PxCode\source\geomutils\src\hf;$(ProjectDir)PxCode\source\geomutils\src\gjk;$(ProjectDir)PxCode\source\geomutils\src\distance;$(ProjectDir)PxCode\source\geomutils\src\sweep;$(ProjectDir)PxCode\source\geomutils\src\pcm;$(ProjectDir)PxCode\source\common\src;$(ProjectDir)PxCode\source\physxcooking\src;$(ProjectDir)PxCode\source\geomutils\src\intersection;$(ProjectDir)PxCode\source\geomutils\src\contact;$(ProjectDir)PxCode\include\geometry</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)Utility;$(ProjectDir)PxCode\include;$(ProjectDir)PxCode\source;$(ProjectDir)PxCode\source\geomutils\include;$(ProjectDir)PxCode\source\geomutils\src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,6 +129,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="MeshOverlapTest.cpp" />
     <ClCompile Include="PhysXTestClient.cpp" />
     <ClCompile Include="PxCode\source\common\src\CmCollection.cpp" />
     <ClCompile Include="PxCode\source\common\src\CmPtrTable.cpp" />
@@ -311,9 +312,11 @@
     <ClCompile Include="PxCode\source\physxcooking\src\Cooking.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MeshOverlapTest.h" />
     <ClInclude Include="PxCode\include\extensions\PxDefaultAllocator.h" />
     <ClInclude Include="PxCode\include\PxConstraintDesc.h" />
     <ClInclude Include="Utility\OBJ_Loader.h" />
+    <ClInclude Include="Utility\OverlapTest.h" />
     <ClInclude Include="Utility\PxTriangleMeshCreator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

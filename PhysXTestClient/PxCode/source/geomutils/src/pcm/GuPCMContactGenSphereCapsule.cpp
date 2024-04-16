@@ -32,8 +32,8 @@
 #include "GuPCMContactGenUtil.h"
 #include "foundation/PxVecMath.h"
 #include "foundation/PxAlloca.h"
-#include "GuVecCapsule.h"
-#include "GuVecBox.h"
+#include "gjk/GuVecCapsule.h"
+#include "gjk/GuVecBox.h"
 
 using namespace physx;
 using namespace Gu;

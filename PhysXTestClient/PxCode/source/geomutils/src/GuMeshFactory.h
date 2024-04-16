@@ -43,7 +43,7 @@
 #include "foundation/PxArray.h"
 
 // PT: added for platforms that compile the onRefCountZero template immediately
-#include "CmUtils.h"
+#include "common/src/CmUtils.h"
 #include "foundation/PxFoundation.h"
 
 namespace physx

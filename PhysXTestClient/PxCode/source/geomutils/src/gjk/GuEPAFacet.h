@@ -32,7 +32,7 @@
 #include "foundation/PxVecMath.h"
 #include "foundation/PxFPU.h"
 #include "foundation/PxUtilities.h"
-#include "CmIDPool.h"
+#include "common/src/CmIDPool.h"
 
 #if (defined __GNUC__ && defined _DEBUG)
 #define PX_EPA_FORCE_INLINE

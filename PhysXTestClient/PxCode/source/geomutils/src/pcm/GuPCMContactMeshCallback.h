@@ -29,11 +29,11 @@
 #ifndef GU_PCM_CONTACT_MESH_CALLBACK_H
 #define GU_PCM_CONTACT_MESH_CALLBACK_H
 
-#include "GuMidphaseInterface.h"
-#include "GuEntityReport.h"
-#include "GuHeightFieldUtil.h"
-#include "GuTriangleCache.h"
-#include "GuConvexEdgeFlags.h"
+#include "mesh/GuMidphaseInterface.h"
+#include "hf/GuEntityReport.h"
+#include "hf/GuHeightFieldUtil.h"
+#include "mesh/GuTriangleCache.h"
+#include "convex/GuConvexEdgeFlags.h"
 
 namespace physx
 {

@@ -32,7 +32,7 @@
 #include "foundation/PxVecTransform.h"
 #include "foundation/PxUtilities.h"
 #include "GuPersistentContactManifold.h"
-#include "GuGJKUtil.h"
+#include "gjk/GuGJKUtil.h"
 #include "GuPCMContactGenUtil.h"
 
 using namespace physx;

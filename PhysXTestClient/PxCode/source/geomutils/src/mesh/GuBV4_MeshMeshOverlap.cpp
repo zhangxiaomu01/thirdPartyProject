@@ -38,7 +38,7 @@ using namespace physx::aos;
 #ifdef USE_GU_TRI_TRI_OVERLAP_FUNCTION
 	#include "GuIntersectionTriangleTriangle.h"
 #endif
-#include "GuDistanceTriangleTriangle.h"
+#include "distance/GuDistanceTriangleTriangle.h"
 
 #ifdef GU_BV4_USE_SLABS
 	#include "GuBV4_Slabs.h"
@@ -1368,10 +1368,10 @@ bool BV4_OverlapMeshVsMesh(
 // PT: experimental version supporting scaling. Passed matrices etc are all temporary.
 
 #include "geometry/PxMeshScale.h"
-#include "CmMatrix34.h"
-#include "CmScaling.h"
-#include "GuConvexUtilsInternal.h"
-#include "GuBoxConversion.h"
+#include "common/src/CmMatrix34.h"
+#include "common/src/CmScaling.h"
+#include "convex/GuConvexUtilsInternal.h"
+#include "common/GuBoxConversion.h"
 
 using namespace Cm;
 

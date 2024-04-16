@@ -34,7 +34,7 @@
 #include "geometry/PxConvexMesh.h"
 #include "geometry/PxConvexMeshGeometry.h"
 #include "foundation/PxUserAllocated.h"
-#include "CmRefCountable.h"
+#include "common/src/CmRefCountable.h"
 #include "common/PxRenderOutput.h"
 #include "GuConvexMeshData.h"
 

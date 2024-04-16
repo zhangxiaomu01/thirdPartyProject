@@ -29,18 +29,18 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #include "GuSweepMesh.h"
-#include "GuIntersectionRayTriangle.h"
-#include "GuIntersectionCapsuleTriangle.h"
-#include "GuIntersectionRayBox.h"
+#include "intersection/GuIntersectionRayTriangle.h"
+#include "intersection/GuIntersectionCapsuleTriangle.h"
+#include "intersection/GuIntersectionRayBox.h"
 #include "GuSphere.h"
-#include "GuBoxConversion.h"
-#include "GuConvexUtilsInternal.h"
-#include "GuVecTriangle.h"
+#include "common/GuBoxConversion.h"
+#include "convex/GuConvexUtilsInternal.h"
+#include "gjk/GuVecTriangle.h"
 #include "GuIntersectionTriangleBox.h"
 #include "GuRTree.h"
 #include "GuTriangleMeshRTree.h"
 #include "GuInternal.h"
-#include "CmMatrix34.h"
+#include "common/src/CmMatrix34.h"
 
 // This file contains code specific to the RTree midphase.
 
@@ -314,7 +314,7 @@ TINST(1,1)
 #include "GuRaycastTests.h"
 #include "geometry/PxTriangleMeshGeometry.h"
 #include "GuTriangleMesh.h"
-#include "CmScaling.h"
+#include "common/src/CmScaling.h"
 
 struct RayMeshColliderCallback  : public MeshHitCallback<PxGeomRaycastHit>
 {

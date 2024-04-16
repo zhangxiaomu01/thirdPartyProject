@@ -27,7 +27,7 @@
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
 #include "GuIntersectionCapsuleTriangle.h"
-#include "GuDistancePointSegment.h"
+#include "distance/GuDistancePointSegment.h"
 
 using namespace physx;
 using namespace Gu;

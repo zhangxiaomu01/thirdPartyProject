@@ -30,7 +30,7 @@
 #define GU_SWEEP_MESH_H
 
 #include "GuMidphaseInterface.h"
-#include "GuVecConvexHull.h"
+#include "gjk/GuVecConvexHull.h"
 
 namespace physx
 {

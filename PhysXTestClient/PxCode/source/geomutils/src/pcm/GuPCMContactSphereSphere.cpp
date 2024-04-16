@@ -27,7 +27,7 @@
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
 #include "geomutils/PxContactBuffer.h"
-#include "GuContactMethodImpl.h"
+#include "contact/GuContactMethodImpl.h"
 #include "foundation/PxVecTransform.h"
 #include "GuPCMContactGenUtil.h"
 

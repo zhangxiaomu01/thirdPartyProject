@@ -30,7 +30,7 @@
 #include "GuDistanceSegmentTriangle.h"
 #include "GuDistancePointTriangle.h"
 #include "GuDistanceSegmentSegment.h"
-#include "GuBarycentricCoordinates.h"
+#include "common/GuBarycentricCoordinates.h"
 
 using namespace physx;
 using namespace Gu;

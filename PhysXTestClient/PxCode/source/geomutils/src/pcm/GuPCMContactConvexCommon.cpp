@@ -26,10 +26,10 @@
 // Copyright (c) 2004-2008 AGEIA Technologies, Inc. All rights reserved.
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
-#include "GuVecTriangle.h"
+#include "gjk/GuVecTriangle.h"
 #include "GuPCMContactConvexCommon.h"
-#include "GuConvexEdgeFlags.h"
-#include "GuBarycentricCoordinates.h"
+#include "convex/GuConvexEdgeFlags.h"
+#include "common/GuBarycentricCoordinates.h"
 
 using namespace physx;
 using namespace Gu;

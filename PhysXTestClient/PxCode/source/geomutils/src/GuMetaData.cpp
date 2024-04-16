@@ -28,13 +28,13 @@
 
 #include "foundation/PxIO.h"
 #include "common/PxMetaData.h"
-#include "GuHeightField.h"
-#include "GuConvexMeshData.h"
-#include "GuBigConvexData2.h"
-#include "GuConvexMesh.h"
-#include "GuTriangleMesh.h"
-#include "GuTriangleMeshBV4.h"
-#include "GuTriangleMeshRTree.h"
+#include "hf/GuHeightField.h"
+#include "convex/GuConvexMeshData.h"
+#include "convex/GuBigConvexData2.h"
+#include "convex/GuConvexMesh.h"
+#include "mesh/GuTriangleMesh.h"
+#include "mesh/GuTriangleMeshBV4.h"
+#include "mesh/GuTriangleMeshRTree.h"
 #include "foundation/PxIntrinsics.h"
 
 using namespace physx;

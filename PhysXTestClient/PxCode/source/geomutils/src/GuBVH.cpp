@@ -36,7 +36,7 @@
 #include "GuAABBTreeBuildStats.h"
 #include "GuMeshFactory.h"
 #include "GuQuery.h"
-#include "CmSerialize.h"
+#include "common/src/CmSerialize.h"
 
 using namespace physx;
 using namespace Gu;

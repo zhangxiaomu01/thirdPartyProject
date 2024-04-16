@@ -28,18 +28,18 @@
 
 #include "geometry/PxTriangleMesh.h"
 #include "geomutils/PxContactBuffer.h"
-#include "GuVecBox.h"
-#include "GuVecConvexHull.h"
-#include "GuVecConvexHullNoScale.h"
-#include "GuVecTriangle.h"
-#include "GuContactMethodImpl.h"
+#include "gjk/GuVecBox.h"
+#include "gjk/GuVecConvexHull.h"
+#include "gjk/GuVecConvexHullNoScale.h"
+#include "gjk/GuVecTriangle.h"
+#include "contact/GuContactMethodImpl.h"
 #include "GuPCMShapeConvex.h"
-#include "GuConvexUtilsInternal.h"
+#include "convex/GuConvexUtilsInternal.h"
 #include "GuPCMContactConvexCommon.h"
 #include "GuPCMContactMeshCallback.h"
 #include "GuIntersectionTriangleBox.h"
 #include "GuBox.h"
-#include "CmMatrix34.h"
+#include "common/src/CmMatrix34.h"
 
 using namespace physx;
 using namespace Gu;

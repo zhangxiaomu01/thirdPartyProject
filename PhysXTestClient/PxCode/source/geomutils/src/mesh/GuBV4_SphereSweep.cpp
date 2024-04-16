@@ -31,7 +31,7 @@
 #include "GuBV4.h"
 #include "GuBox.h"
 #include "GuSphere.h"
-#include "GuSweepSphereTriangle.h"
+#include "sweep/GuSweepSphereTriangle.h"
 
 using namespace physx;
 using namespace Gu;

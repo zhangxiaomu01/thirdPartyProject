@@ -31,9 +31,9 @@
 #include "GuPCMContactGenUtil.h"
 #include "foundation/PxVecMath.h"
 #include "foundation/PxAlloca.h"
-#include "GuVecCapsule.h"
-#include "GuVecBox.h"
-#include "GuEPA.h"
+#include "gjk/GuVecCapsule.h"
+#include "gjk/GuVecBox.h"
+#include "gjk/GuEPA.h"
 #include "geomutils/PxContactBuffer.h"
 #include "common/PxRenderOutput.h"
 

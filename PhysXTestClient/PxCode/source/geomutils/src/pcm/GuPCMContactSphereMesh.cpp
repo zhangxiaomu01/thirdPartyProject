@@ -27,10 +27,10 @@
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
 #include "foundation/PxSort.h"
-#include "GuContactMethodImpl.h"
+#include "contact/GuContactMethodImpl.h"
 #include "GuPCMContactConvexCommon.h"
 #include "GuPCMContactMeshCallback.h"
-#include "GuFeatureCode.h"
+#include "contact/GuFeatureCode.h"
 #include "GuBox.h"
 
 using namespace physx;

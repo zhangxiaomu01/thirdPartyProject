@@ -31,8 +31,8 @@
 #include "GuEdgeList.h"
 #include "foundation/PxMathUtils.h"
 #include "foundation/PxPlane.h"
-#include "CmRadixSort.h"
-#include "CmSerialize.h"
+#include "common/src/CmRadixSort.h"
+#include "common/src/CmSerialize.h"
 
 // PT: code archeology: this initially came from ICE (IceEdgeList.h/cpp). Consider putting it back the way it was initially.
 // It makes little sense that something like EdgeList is in GeomUtils but some equivalent class like Adjacencies in is Cooking.

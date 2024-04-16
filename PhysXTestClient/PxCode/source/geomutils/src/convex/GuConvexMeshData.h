@@ -34,7 +34,7 @@
 
 #include "foundation/PxIntrinsics.h"
 #include "GuCenterExtents.h"
-#include "CmSerialize.h"
+#include "common/src/CmSerialize.h"
 #include "GuSDF.h"
 
 // Data definition

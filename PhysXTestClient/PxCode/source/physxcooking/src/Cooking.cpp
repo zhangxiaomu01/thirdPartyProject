@@ -36,7 +36,7 @@ using namespace physx;
 using namespace Gu;
 
 #include "cooking/PxCookingInternal.h"
-#include "GuTriangleMeshBV4.h"
+#include "mesh/GuTriangleMeshBV4.h"
 physx::PxTriangleMesh* PxCreateTriangleMeshInternal(const physx::PxTriangleMeshInternalData& data)
 {
 	TriangleMesh* np;

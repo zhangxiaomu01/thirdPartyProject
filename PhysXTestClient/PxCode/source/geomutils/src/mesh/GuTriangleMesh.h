@@ -37,8 +37,8 @@
 
 #include "GuMeshData.h"
 #include "GuCenterExtents.h"
-#include "CmScaling.h"
-#include "CmRefCountable.h"
+#include "common/src/CmScaling.h"
+#include "common/src/CmRefCountable.h"
 #include "common/PxRenderOutput.h"
 
 namespace physx

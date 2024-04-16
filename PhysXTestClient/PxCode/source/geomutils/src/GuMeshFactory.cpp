@@ -29,12 +29,12 @@
 #include "common/PxInsertionCallback.h"
 #include "GuCooking.h"
 #include "GuMeshFactory.h"
-#include "GuTriangleMeshBV4.h"
-#include "GuTriangleMeshRTree.h"
-#include "GuTetrahedronMesh.h"
-#include "GuConvexMesh.h"
+#include "mesh/GuTriangleMeshBV4.h"
+#include "mesh/GuTriangleMeshRTree.h"
+#include "mesh/GuTetrahedronMesh.h"
+#include "convex/GuConvexMesh.h"
 #include "GuBVH.h"
-#include "GuHeightField.h"
+#include "hf/GuHeightField.h"
 
 #if PX_SUPPORT_OMNI_PVD
 #	define OMNI_PVD_NOTIFY_ADD(OBJECT) notifyListenersAdd(OBJECT)

@@ -28,7 +28,7 @@
 
 #include "GuHeightField.h"
 #include "GuMeshFactory.h"
-#include "CmSerialize.h"
+#include "common/src/CmSerialize.h"
 #include "foundation/PxBitMap.h"
 
 using namespace physx;

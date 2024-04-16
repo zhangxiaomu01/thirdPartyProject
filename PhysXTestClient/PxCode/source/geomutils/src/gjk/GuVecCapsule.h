@@ -35,7 +35,7 @@
 
 #include "geometry/PxCapsuleGeometry.h"
 #include "GuVecConvex.h"   
-#include "GuConvexSupportTable.h"
+#include "convex/GuConvexSupportTable.h"
 
 namespace physx
 {

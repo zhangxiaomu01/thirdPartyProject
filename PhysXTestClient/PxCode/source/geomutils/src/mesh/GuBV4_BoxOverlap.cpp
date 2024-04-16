@@ -32,8 +32,8 @@ using namespace Gu;
 using namespace physx::aos;
 
 #include "GuInternal.h"
-#include "GuDistancePointSegment.h"
-#include "GuIntersectionCapsuleTriangle.h"
+#include "distance/GuDistancePointSegment.h"
+#include "intersection/GuIntersectionCapsuleTriangle.h"
 #include "GuBV4_BoxOverlap_Internal.h"
 #include "GuBV4_BoxBoxOverlapTest.h"
 

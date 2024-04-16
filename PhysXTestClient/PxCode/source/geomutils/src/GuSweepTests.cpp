@@ -29,12 +29,12 @@
 #include "geometry/PxSphereGeometry.h"
 #include "geometry/PxCustomGeometry.h"
 #include "GuSweepTests.h"
-#include "GuVecCapsule.h"
-#include "GuVecBox.h"
-#include "GuVecTriangle.h"
+#include "gjk/GuVecCapsule.h"
+#include "gjk/GuVecBox.h"
+#include "gjk/GuVecTriangle.h"
 #include "sweep/GuSweepTriangleUtils.h"
 #include "GuInternal.h"
-#include "GuGJKRaycast.h"
+#include "gjk/GuGJKRaycast.h"
 
 using namespace physx;
 using namespace Gu;

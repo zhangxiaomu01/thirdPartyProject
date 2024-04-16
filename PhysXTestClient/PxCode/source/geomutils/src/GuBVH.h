@@ -35,7 +35,7 @@
 
 #include "geometry/PxBVH.h"
 
-#include "CmRefCountable.h"
+#include "common/src/CmRefCountable.h"
 #include "foundation/PxVecMath.h"
 #include "foundation/PxUserAllocated.h"
 #include "GuAABBTreeBounds.h"

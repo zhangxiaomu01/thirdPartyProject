@@ -2,8 +2,11 @@
 
 #include "mesh/GuTriangleMesh.h"
 #include "mesh/GuBV4_Common.h"
-#include "DataStructure/PxGeometry.h"
-#include "DataStructure/PxTriangleMeshGeometry.h"
+#include "geometry/PxGeometry.h"
+#include "geometry/PxReportCallback.h"
+#include "geometry/PxTriangleMeshGeometry.h"
+#include "geometry/PxGeometryHit.h"
+#include "geometry/PxMeshQuery.h"
 
 using namespace physx;
 using namespace physx::aos;

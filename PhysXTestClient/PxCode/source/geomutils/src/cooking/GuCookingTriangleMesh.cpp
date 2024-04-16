@@ -42,7 +42,7 @@
 #include "mesh/GuBV4Build.h"
 #include "mesh/GuBV32Build.h"
 #include "GuBounds.h"
-#include "CmSerialize.h"
+#include "common/src/CmSerialize.h"
 #include "GuCookingGrbTriangleMesh.h"
 #include "GuCookingVolumeIntegration.h"
 #include "GuCookingSDF.h"

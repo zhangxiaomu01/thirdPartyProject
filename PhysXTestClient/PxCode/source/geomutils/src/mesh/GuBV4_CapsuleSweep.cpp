@@ -27,7 +27,7 @@
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
 #include "GuBV4.h"
-#include "GuSweepSphereTriangle.h"
+#include "sweep/GuSweepSphereTriangle.h"
 using namespace physx;
 using namespace Gu;
 

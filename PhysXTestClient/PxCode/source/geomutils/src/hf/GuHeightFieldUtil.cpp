@@ -33,7 +33,7 @@
 #include "GuHeightField.h"
 #include "GuEntityReport.h"
 #include "foundation/PxIntrinsics.h"
-#include "CmScaling.h"
+#include "common/src/CmScaling.h"
 
 using namespace physx;
 

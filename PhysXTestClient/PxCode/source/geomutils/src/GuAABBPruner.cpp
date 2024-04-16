@@ -39,7 +39,7 @@
 #include "GuAABBTreeQuery.h"
 #include "GuAABBTreeNode.h"
 #include "GuQuery.h"
-#include "CmVisualization.h"
+#include "common/src/CmVisualization.h"
 
 using namespace physx;
 using namespace Gu;

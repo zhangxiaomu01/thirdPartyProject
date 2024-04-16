@@ -34,7 +34,7 @@
 #include "geometry/PxTetrahedronMesh.h"
 #include "geometry/PxTetrahedron.h"
 #include "geometry/PxSimpleTriangleMesh.h"
-#include "CmRefCountable.h"
+#include "common/src/CmRefCountable.h"
 #include "common/PxRenderOutput.h"
 #include "GuMeshData.h"
 #include "GuCenterExtents.h"

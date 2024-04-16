@@ -27,9 +27,9 @@
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
 #include "geomutils/PxContactBuffer.h"
-#include "GuVecBox.h"
-#include "GuVecSphere.h"
-#include "GuContactMethodImpl.h"
+#include "gjk/GuVecBox.h"
+#include "gjk/GuVecSphere.h"
+#include "contact/GuContactMethodImpl.h"
 #include "GuPCMContactGenUtil.h"
 
 using namespace physx;

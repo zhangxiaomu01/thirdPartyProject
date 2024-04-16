@@ -29,22 +29,22 @@
 #include "GuSweepTests.h"
 #include "GuHeightFieldUtil.h"
 #include "GuEntityReport.h"
-#include "GuVecCapsule.h"
+#include "gjk/GuVecCapsule.h"
 #include "GuSweepMTD.h"
-#include "GuSweepTriangleUtils.h"
-#include "GuVecBox.h"
-#include "CmScaling.h"
-#include "GuSweepCapsuleTriangle.h"
+#include "sweep/GuSweepTriangleUtils.h"
+#include "gjk/GuVecBox.h"
+#include "common/src/CmScaling.h"
+#include "sweep/GuSweepCapsuleTriangle.h"
 #include "GuInternal.h"
-#include "GuGJKRaycast.h"
-#include "CmMatrix34.h"
+#include "gjk/GuGJKRaycast.h"
+#include "common/src/CmMatrix34.h"
 
 using namespace physx;
 using namespace Gu;
 using namespace Cm;
 using namespace physx::aos;
 
-#include "GuSweepConvexTri.h"
+#include "mesh/GuSweepConvexTri.h"
 
 #define AbortTraversal		false
 #define ContinueTraversal	true

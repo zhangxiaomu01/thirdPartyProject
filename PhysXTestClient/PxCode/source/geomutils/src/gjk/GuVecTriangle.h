@@ -33,7 +33,7 @@
 */
 
 #include "GuVecConvex.h"
-#include "GuConvexSupportTable.h"
+#include "convex/GuConvexSupportTable.h"
 #include "GuDistancePointTriangle.h"
 
 namespace physx

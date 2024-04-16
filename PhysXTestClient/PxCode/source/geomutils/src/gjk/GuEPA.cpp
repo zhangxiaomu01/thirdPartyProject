@@ -29,7 +29,7 @@
 #include "GuEPA.h"
 #include "GuEPAFacet.h"
 #include "GuGJKSimplex.h"
-#include "CmPriorityQueue.h"
+#include "common/src/CmPriorityQueue.h"
 #include "foundation/PxAllocator.h"
 
 namespace physx

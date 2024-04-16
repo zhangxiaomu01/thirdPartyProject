@@ -28,7 +28,7 @@
 
 #include "GuShapeConvex.h"
 #include "GuBigConvexData.h"
-#include "GuEdgeList.h"
+#include "common/GuEdgeList.h"
 #include "GuInternal.h"
 
 #include "foundation/PxMat34.h"

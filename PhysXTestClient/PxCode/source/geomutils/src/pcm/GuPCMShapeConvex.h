@@ -29,9 +29,9 @@
 #ifndef GU_PCM_SHAPE_CONVEX_H
 #define GU_PCM_SHAPE_CONVEX_H
 
-#include "GuConvexSupportTable.h"
+#include "convex/GuConvexSupportTable.h"
 #include "GuPersistentContactManifold.h"
-#include "GuShapeConvex.h"
+#include "convex/GuShapeConvex.h"
 
 namespace physx
 {

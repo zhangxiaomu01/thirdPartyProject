@@ -621,6 +621,9 @@
     <ClCompile Include="PxCode\source\geomutils\src\pcm\GuPCMTriangleContactGen.cpp">
       <Filter>Source Files\PxCode\geoutils\pcm</Filter>
     </ClCompile>
+    <ClCompile Include="MeshOverlapTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utility\OBJ_Loader.h">
@@ -634,6 +637,12 @@
     </ClInclude>
     <ClInclude Include="PxCode\include\PxConstraintDesc.h">
       <Filter>Header Files\PxCode</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshOverlapTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\OverlapTest.h">
+      <Filter>Header Files\Utility</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

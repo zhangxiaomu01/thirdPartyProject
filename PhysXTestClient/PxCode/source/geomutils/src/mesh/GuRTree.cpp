@@ -41,8 +41,8 @@
 
 #include "GuRTree.h"
 #include "foundation/PxSort.h"
-#include "CmSerialize.h"
-#include "CmUtils.h"
+#include "common/src/CmSerialize.h"
+#include "common/src/CmUtils.h"
 #include "foundation/PxUtilities.h"
 
 using namespace physx;

@@ -4,6 +4,7 @@
 #include "cooking/PxCooking.h"
 #include "foundation/PxFPU.h"
 #include "cooking/GuCookingTriangleMesh.h"
+#include "common/PxInsertionCallback.h"
 
 /// <summary>
 /// 从PxCreateTriangleMesh(params, meshDesc)摘出来的核心创建triangleMesh的代码。具体见
@@ -37,12 +38,10 @@ namespace MeshOverlap {
 					// bvh33已经弃用
 					PxConcreteType::Enum type = PxConcreteType::eTRIANGLE_MESH_BVH34;
 
-					 //return static_cast<PxTriangleMesh*>(insertionCallback_.buildObjectFromData(type, &builder.getMeshData()));
-					return nullptr;
+					return static_cast<PxTriangleMesh*>(insertionCallback_.buildObjectFromData(type, &builder.getMeshData()));
 				}
 			};
 			BV4TriangleMeshBuilder builder(params);
-			std::cout << "The triangle is created in the new path: " << std::endl;
 			return Local::createTriangleMesh(params, builder, desc, insertionCallback, condition);
 		}
 	};

@@ -28,9 +28,9 @@
 
 #include "GuPCMTriangleContactGen.h"
 #include "GuPCMContactConvexCommon.h"
-#include "GuVecTriangle.h"
-#include "GuBarycentricCoordinates.h"
-#include "GuConvexEdgeFlags.h"
+#include "gjk/GuVecTriangle.h"
+#include "common/GuBarycentricCoordinates.h"
+#include "convex/GuConvexEdgeFlags.h"
 #include "foundation/PxAlloca.h"
 
 #if	PCM_LOW_LEVEL_DEBUG

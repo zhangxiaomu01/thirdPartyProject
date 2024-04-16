@@ -40,15 +40,15 @@ using namespace physx::aos;
 #include "GuBV4_Common.h"
 #include "GuSphere.h"
 #include "GuCapsule.h"
-#include "GuBoxConversion.h"
-#include "GuConvexUtilsInternal.h"
-#include "GuVecTriangle.h"
+#include "common/GuBoxConversion.h"
+#include "convex/GuConvexUtilsInternal.h"
+#include "gjk/GuVecTriangle.h"
 #include "GuIntersectionTriangleBox.h"
-#include "GuIntersectionCapsuleTriangle.h"
-#include "GuIntersectionRayBox.h"
+#include "intersection/GuIntersectionCapsuleTriangle.h"
+#include "intersection/GuIntersectionRayBox.h"
 #include "GuTriangleMeshBV4.h"
-#include "CmScaling.h"
-#include "CmMatrix34.h"
+#include "common/src/CmScaling.h"
+#include "common/src/CmMatrix34.h"
 
 // This file contains code specific to the BV4 midphase.
 
@@ -756,7 +756,7 @@ void physx::Gu::intersectOBB_BV4(const TetrahedronMesh* mesh, const Box& obb, Te
 
 
 
-#include "GuVecCapsule.h"
+#include "gjk/GuVecCapsule.h"
 #include "GuSweepMTD.h"
 
 static bool gCapsuleMeshSweepCallback(void* userData, const PxVec3& p0, const PxVec3& p1, const PxVec3& p2, PxU32 triangleIndex, /*const PxU32* vertexIndices,*/ float& dist)

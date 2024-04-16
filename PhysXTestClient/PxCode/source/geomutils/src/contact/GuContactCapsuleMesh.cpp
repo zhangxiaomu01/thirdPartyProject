@@ -28,19 +28,19 @@
 
 #include "geomutils/PxContactBuffer.h"
 
-#include "GuIntersectionEdgeEdge.h"
-#include "GuDistanceSegmentTriangle.h"
-#include "GuIntersectionRayTriangle.h"
+#include "intersection/GuIntersectionEdgeEdge.h"
+#include "distance/GuDistanceSegmentTriangle.h"
+#include "intersection/GuIntersectionRayTriangle.h"
 #include "GuIntersectionTriangleBox.h"
 #include "GuInternal.h"
 #include "GuContactMethodImpl.h"
 #include "GuFeatureCode.h"
-#include "GuMidphaseInterface.h"
-#include "GuEntityReport.h"
-#include "GuHeightFieldUtil.h"
-#include "GuConvexEdgeFlags.h"
+#include "mesh/GuMidphaseInterface.h"
+#include "hf/GuEntityReport.h"
+#include "hf/GuHeightFieldUtil.h"
+#include "convex/GuConvexEdgeFlags.h"
 #include "GuBox.h"
-#include "CmMatrix34.h"
+#include "common/src/CmMatrix34.h"
 
 using namespace physx;
 using namespace Gu;

@@ -31,9 +31,9 @@
 #include "GuDistancePointTriangle.h"
 #include "GuContactMethodImpl.h"
 #include "GuFeatureCode.h"
-#include "GuMidphaseInterface.h"
-#include "GuEntityReport.h"
-#include "GuHeightFieldUtil.h"
+#include "mesh/GuMidphaseInterface.h"
+#include "hf/GuEntityReport.h"
+#include "hf/GuHeightFieldUtil.h"
 #include "GuBox.h"
 
 #include "foundation/PxSort.h"

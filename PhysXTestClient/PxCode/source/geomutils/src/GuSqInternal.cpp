@@ -27,7 +27,7 @@
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
 #include "GuSqInternal.h"
-#include "CmVisualization.h"
+#include "common/src/CmVisualization.h"
 #include "GuAABBTree.h"
 #include "GuAABBTreeNode.h"
 #include "GuIncrementalAABBTree.h"

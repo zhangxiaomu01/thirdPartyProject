@@ -28,8 +28,8 @@
 
 #include "foundation/PxMemory.h"
 #include "GuBV32.h"
-#include "CmSerialize.h"
-#include "CmUtils.h"
+#include "common/src/CmSerialize.h"
+#include "common/src/CmUtils.h"
 #include "foundation/PxUtilities.h"
 #include "foundation/PxVecMath.h"
 

@@ -30,7 +30,7 @@
 #define GU_GJKSIMPLEX_H
 
 #include "foundation/PxVecMath.h"
-#include "GuBarycentricCoordinates.h"
+#include "common/GuBarycentricCoordinates.h"
 
 #if (defined __GNUC__ && defined _DEBUG)
 #define PX_GJK_INLINE PX_INLINE

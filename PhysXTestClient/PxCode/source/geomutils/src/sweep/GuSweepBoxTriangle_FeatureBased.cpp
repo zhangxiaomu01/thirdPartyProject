@@ -30,7 +30,7 @@
 #include "geometry/PxTriangle.h"
 
 #include "GuSweepBoxTriangle_FeatureBased.h"
-#include "GuIntersectionRayBox.h"
+#include "intersection/GuIntersectionRayBox.h"
 #include "GuSweepTriangleUtils.h"
 #include "GuInternal.h"
 

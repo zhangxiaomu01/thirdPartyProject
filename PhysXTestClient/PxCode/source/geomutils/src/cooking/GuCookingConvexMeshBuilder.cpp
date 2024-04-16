@@ -35,7 +35,7 @@
 #include "GuCookingVolumeIntegration.h"
 #include "GuCookingConvexMeshBuilder.h"
 #include "GuCookingBigConvexDataBuilder.h"
-#include "CmUtils.h"
+#include "common/src/CmUtils.h"
 #include "foundation/PxVecMath.h"
 #include "GuCookingSDF.h"
 

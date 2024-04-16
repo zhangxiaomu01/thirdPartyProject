@@ -29,12 +29,12 @@
 #include "GuSweepBoxSphere.h"
 #include "GuOverlapTests.h"
 #include "GuSphere.h"
-#include "GuBoxConversion.h"
+#include "common/GuBoxConversion.h"
 #include "GuCapsule.h"
-#include "GuIntersectionRayCapsule.h"
-#include "GuIntersectionRayBox.h"
-#include "GuIntersectionSphereBox.h"
-#include "GuDistancePointSegment.h"
+#include "intersection/GuIntersectionRayCapsule.h"
+#include "intersection/GuIntersectionRayBox.h"
+#include "intersection/GuIntersectionSphereBox.h"
+#include "distance/GuDistancePointSegment.h"
 #include "GuInternal.h"
 
 using namespace physx;

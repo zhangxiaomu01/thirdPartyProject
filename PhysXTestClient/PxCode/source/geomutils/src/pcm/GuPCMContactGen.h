@@ -29,12 +29,12 @@
 #ifndef GU_PCM_CONTACT_GEN_H
 #define GU_PCM_CONTACT_GEN_H
 
-#include "GuConvexSupportTable.h"
+#include "convex/GuConvexSupportTable.h"
 #include "GuPersistentContactManifold.h"
-#include "GuShapeConvex.h"
-#include "GuSeparatingAxes.h"
-#include "GuGJKType.h"
-#include "GuGJKUtil.h"
+#include "convex/GuShapeConvex.h"
+#include "common/GuSeparatingAxes.h"
+#include "gjk/GuGJKType.h"
+#include "gjk/GuGJKUtil.h"
 
 namespace physx
 {

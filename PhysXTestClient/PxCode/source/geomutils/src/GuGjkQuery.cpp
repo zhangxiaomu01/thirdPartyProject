@@ -32,23 +32,23 @@
 #include "GuOverlapTests.h"
 #include "GuSweepTests.h"
 #include "GuRaycastTests.h"
-#include "GuBoxConversion.h"
-#include "GuTriangleMesh.h"
+#include "common/GuBoxConversion.h"
+#include "mesh/GuTriangleMesh.h"
 #include "GuMTD.h"
 #include "GuBounds.h"
 #include "distance/GuDistancePointSegment.h"
-#include "GuConvexMesh.h"
+#include "convex/GuConvexMesh.h"
 #include "distance/GuDistancePointBox.h"
-#include "GuMidphaseInterface.h"
+#include "mesh/GuMidphaseInterface.h"
 #include "foundation/PxFPU.h"
 
 using namespace physx;
 using namespace Gu;
 
-#include "GuGJK.h"
-#include "GuGJKPenetration.h"
-#include "GuGJKRaycast.h"
-#include "GuEPA.h"
+#include "gjk/GuGJK.h"
+#include "gjk/GuGJKPenetration.h"
+#include "gjk/GuGJKRaycast.h"
+#include "gjk/GuEPA.h"
 #include "geomutils/PxContactBuffer.h"
 
 using namespace aos;

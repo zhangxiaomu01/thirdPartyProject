@@ -27,8 +27,8 @@
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
 #include "GuSweepCapsuleTriangle.h"
-#include "GuIntersectionCapsuleTriangle.h"
-#include "GuDistanceSegmentTriangle.h"
+#include "intersection/GuIntersectionCapsuleTriangle.h"
+#include "distance/GuDistanceSegmentTriangle.h"
 #include "GuIntersectionTriangleBox.h"
 #include "GuSweepSphereTriangle.h"
 #include "GuInternal.h"

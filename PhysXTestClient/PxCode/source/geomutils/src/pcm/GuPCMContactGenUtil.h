@@ -31,9 +31,9 @@
 
 #include "foundation/PxVecMath.h"
 #include "geomutils/PxContactBuffer.h"
-#include "GuShapeConvex.h"
-#include "GuVecCapsule.h"
-#include "GuConvexSupportTable.h"
+#include "convex/GuShapeConvex.h"
+#include "gjk/GuVecCapsule.h"
+#include "convex/GuConvexSupportTable.h"
 
 //The smallest epsilon we will permit (scaled by PxTolerancesScale.length)
 #define	PCM_WITNESS_POINT_LOWER_EPS		1e-2f

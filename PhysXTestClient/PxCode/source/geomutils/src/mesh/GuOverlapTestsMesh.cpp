@@ -28,16 +28,16 @@
 
 #include "geometry/PxSphereGeometry.h"
 #include "GuMidphaseInterface.h"
-#include "CmScaling.h"
+#include "common/src/CmScaling.h"
 #include "GuSphere.h"
 #include "GuInternal.h"
-#include "GuConvexUtilsInternal.h"
-#include "GuVecTriangle.h"
-#include "GuVecConvexHull.h"
-#include "GuConvexMesh.h"
-#include "GuGJK.h"
+#include "convex/GuConvexUtilsInternal.h"
+#include "gjk/GuVecTriangle.h"
+#include "gjk/GuVecConvexHull.h"
+#include "convex/GuConvexMesh.h"
+#include "gjk/GuGJK.h"
 #include "GuSweepSharedTests.h"
-#include "CmMatrix34.h"
+#include "common/src/CmMatrix34.h"
 
 using namespace physx;
 using namespace Cm;

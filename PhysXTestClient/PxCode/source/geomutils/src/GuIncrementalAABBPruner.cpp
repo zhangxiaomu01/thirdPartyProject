@@ -31,7 +31,7 @@
 #ifdef COMPILE_INCREMENTAL_AABB_PRUNER
 
 #include "common/PxProfileZone.h"
-#include "CmVisualization.h"
+#include "common/src/CmVisualization.h"
 #include "foundation/PxBitUtils.h"
 #include "GuIncrementalAABBPruner.h"
 #include "GuIncrementalAABBTree.h"

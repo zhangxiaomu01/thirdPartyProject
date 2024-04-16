@@ -26,7 +26,7 @@
 // Copyright (c) 2004-2008 AGEIA Technologies, Inc. All rights reserved.
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
-#include "CmVisualization.h"
+#include "common/src/CmVisualization.h"
 #include "GuIncrementalAABBPrunerCore.h"
 #include "GuSqInternal.h"
 #include "GuIncrementalAABBTree.h"

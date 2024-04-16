@@ -31,8 +31,8 @@
 #include "foundation/PxAllocator.h"
 #include "GuBigConvexData2.h"
 #include "GuCubeIndex.h"
-#include "CmUtils.h"
-#include "CmSerialize.h"
+#include "common/src/CmUtils.h"
+#include "common/src/CmSerialize.h"
 #include "foundation/PxUtilities.h"
 
 using namespace physx;

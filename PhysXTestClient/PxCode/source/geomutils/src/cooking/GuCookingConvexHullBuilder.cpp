@@ -37,7 +37,7 @@
 #include "GuCookingConvexHullLib.h"
 #include "foundation/PxArray.h"
 #include "foundation/PxVecMath.h"
-#include "CmRadixSort.h"
+#include "common/src/CmRadixSort.h"
 
 // PT: TODO: refactor/revisit this, looks like it comes from an old ICE file
 

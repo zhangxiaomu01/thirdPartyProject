@@ -30,7 +30,7 @@
 #include "GuDistancePointBox.h"
 #include "GuDistanceSegmentSegment.h"
 #include "GuDistancePointSegment.h"
-#include "GuIntersectionRayBox.h"
+#include "intersection/GuIntersectionRayBox.h"
 
 using namespace physx;
 

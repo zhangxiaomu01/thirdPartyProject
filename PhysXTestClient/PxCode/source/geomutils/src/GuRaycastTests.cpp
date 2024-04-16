@@ -30,15 +30,15 @@
 #include "geometry/PxConvexMeshGeometry.h"
 #include "geometry/PxTetrahedronMeshGeometry.h"
 #include "geometry/PxCustomGeometry.h"
-#include "GuMidphaseInterface.h"
+#include "mesh/GuMidphaseInterface.h"
 #include "GuInternal.h"
 #include "intersection/GuIntersectionRayCapsule.h"
 #include "intersection/GuIntersectionRaySphere.h"
 #include "intersection/GuIntersectionRayPlane.h"
-#include "GuHeightFieldUtil.h"
+#include "hf/GuHeightFieldUtil.h"
 #include "distance/GuDistancePointSegment.h"
-#include "GuConvexMesh.h"
-#include "CmScaling.h"
+#include "convex/GuConvexMesh.h"
+#include "common/src/CmScaling.h"
 
 using namespace physx;
 using namespace Gu;

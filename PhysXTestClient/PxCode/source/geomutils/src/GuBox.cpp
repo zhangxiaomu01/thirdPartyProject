@@ -27,7 +27,7 @@
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
 #include "foundation/PxIntrinsics.h"
-#include "GuBoxConversion.h"
+#include "common/GuBoxConversion.h"
 #include "GuInternal.h"
 
 using namespace physx;

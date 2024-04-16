@@ -27,7 +27,7 @@
 #ifndef GU_TETRAHEDRONMESHUTILS_H
 #define GU_TETRAHEDRONMESHUTILS_H
 
-#include <GuTetrahedronMesh.h>
+#include <mesh/GuTetrahedronMesh.h>
 
 namespace physx
 {

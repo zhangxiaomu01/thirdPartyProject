@@ -27,7 +27,7 @@
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
 #include "GuPCMShapeConvex.h"
-#include "GuVecConvexHull.h"
+#include "gjk/GuVecConvexHull.h"
 #include "GuPCMContactGen.h"
 #include "common/PxRenderOutput.h"
 

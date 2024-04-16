@@ -27,9 +27,9 @@
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
 #include "GuSweepSphereTriangle.h"
-#include "GuIntersectionRaySphere.h"
-#include "GuIntersectionRayCapsule.h"
-#include "GuIntersectionRayTriangle.h"
+#include "intersection/GuIntersectionRaySphere.h"
+#include "intersection/GuIntersectionRayCapsule.h"
+#include "intersection/GuIntersectionRayTriangle.h"
 #include "GuCapsule.h"
 #include "GuInternal.h"
 #include "foundation/PxUtilities.h"

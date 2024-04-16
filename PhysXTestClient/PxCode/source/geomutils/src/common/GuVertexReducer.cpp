@@ -28,7 +28,7 @@
 
 #include "GuVertexReducer.h"
 #include "foundation/PxAllocator.h"
-#include "CmRadixSort.h"
+#include "common/src/CmRadixSort.h"
 
 using namespace physx;
 using namespace Gu;

@@ -43,7 +43,6 @@
 #include "foundation/PxAtomic.h"
 #include "foundation/PxThread.h"
 #include "common/GuMeshAnalysis.h"
-#include "GuMeshAnalysis.h"
 
 #include "PxSDFBuilder.h"
 #include "distance/GuDistancePointSegment.h"

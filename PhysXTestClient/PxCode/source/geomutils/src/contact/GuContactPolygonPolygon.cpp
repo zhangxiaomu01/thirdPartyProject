@@ -30,7 +30,7 @@
 #include "geomutils/PxContactBuffer.h"
 
 #include "GuContactPolygonPolygon.h"
-#include "GuShapeConvex.h"
+#include "convex/GuShapeConvex.h"
 #include "GuInternal.h"
 #include "foundation/PxAlloca.h"
 #include "foundation/PxFPU.h"

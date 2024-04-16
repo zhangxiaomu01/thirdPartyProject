@@ -30,8 +30,8 @@
 #include "foundation/PxBitUtils.h"
 #include "GuBucketPruner.h"
 #include "GuInternal.h"
-#include "CmVisualization.h"
-#include "CmRadixSort.h"
+#include "common/src/CmVisualization.h"
+#include "common/src/CmRadixSort.h"
 
 using namespace physx::aos;
 

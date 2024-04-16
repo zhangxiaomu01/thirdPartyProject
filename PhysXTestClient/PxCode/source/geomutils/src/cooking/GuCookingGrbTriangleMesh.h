@@ -35,7 +35,7 @@
 #include "mesh/GuTriangle.h"
 #include "common/GuEdgeList.h"
 #include "cooking/PxCooking.h"
-#include "CmRadixSort.h"
+#include "common/src/CmRadixSort.h"
 
 //#define CHECK_OLD_CODE_VS_NEW_CODE
 

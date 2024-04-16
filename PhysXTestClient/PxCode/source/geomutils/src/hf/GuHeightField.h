@@ -35,7 +35,7 @@
 #include "geometry/PxHeightFieldGeometry.h"
 
 #include "foundation/PxUserAllocated.h"
-#include "CmRefCountable.h"
+#include "common/src/CmRefCountable.h"
 #include "GuSphere.h"
 #include "GuHeightFieldData.h"
 

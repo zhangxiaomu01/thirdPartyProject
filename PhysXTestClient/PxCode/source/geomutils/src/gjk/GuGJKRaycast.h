@@ -31,7 +31,7 @@
 
 #include "GuGJKType.h"
 #include "GuGJKSimplex.h"
-#include "GuConvexSupportTable.h"
+#include "convex/GuConvexSupportTable.h"
 #include "GuGJKPenetration.h"
 #include "GuEPA.h"
 

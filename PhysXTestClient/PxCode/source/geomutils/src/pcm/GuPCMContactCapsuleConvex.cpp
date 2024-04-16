@@ -27,12 +27,12 @@
 // Copyright (c) 2001-2004 NovodeX AG. All rights reserved.  
 
 #include "geomutils/PxContactBuffer.h"
-#include "GuGJKPenetration.h"
-#include "GuEPA.h"
-#include "GuVecCapsule.h"
-#include "GuVecConvexHull.h"
-#include "GuVecConvexHullNoScale.h"
-#include "GuContactMethodImpl.h"
+#include "gjk/GuGJKPenetration.h"
+#include "gjk/GuEPA.h"
+#include "gjk/GuVecCapsule.h"
+#include "gjk/GuVecConvexHull.h"
+#include "gjk/GuVecConvexHullNoScale.h"
+#include "contact/GuContactMethodImpl.h"
 #include "GuPCMContactGen.h"
 #include "GuPCMShapeConvex.h"
 

@@ -30,7 +30,7 @@
 #include "hf/GuHeightField.h"
 #include "foundation/PxFPU.h"
 #include "common/PxInsertionCallback.h"
-#include "CmUtils.h"
+#include "common/src/CmUtils.h"
 
 using namespace physx;
 using namespace Gu;

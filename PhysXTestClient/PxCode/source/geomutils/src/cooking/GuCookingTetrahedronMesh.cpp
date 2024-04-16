@@ -44,7 +44,7 @@
 #include "gjk/GuGJKType.h"
 #include "GuCooking.h"
 #include "GuBounds.h"
-#include "CmSerialize.h"
+#include "common/src/CmSerialize.h"
 #include "foundation/PxFPU.h"
 #include "common/PxInsertionCallback.h"
 
